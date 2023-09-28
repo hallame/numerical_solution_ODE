@@ -52,7 +52,7 @@ int main()
 {
    int n;
    cout << "Enter N: ";
-   cin >> n;
+   cin >> n;                                   // n=448
    double a = 0, b = pow(4/3, 1/4);
    double* x = El_X(a, b, n);
    double* y = El_Y(a, b, n, x);
