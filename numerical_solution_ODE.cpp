@@ -15,7 +15,7 @@ double fun_analit(double x)                        //function for calculating th
    return exp(xx);
 }
 
-double* El_X(double a, double b, int n)            //calculation by the Euler method
+double* El_X(double a, double b, int n)            //computing by the Euler method
 {
    double h = (b-a)/n;
    auto* x= new double [n];
