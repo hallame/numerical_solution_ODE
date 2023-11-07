@@ -4,7 +4,7 @@
 using namespace std;
 
 
-double fun(double x, double y)                      // Variant 19 function
+double fun(double x, double y)                      // task function
 {
    return 3*pow(x, 3)*y;
 }
